@@ -1,0 +1,206 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+nav {
+    background-color: rgba(248,241,231,1);
+    width: 100%;
+    height: 65px;
+    position: fixed;
+    
+}
+
+#header {
+    
+    padding-top: 12px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#header svg {
+    width: 200px;
+}
+
+#bars {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+#bag {
+    margin: 5px;
+    font-size: 15px;
+    background-color:rgb(214, 35, 0) ;
+}
+#user {
+    font-size: 18px;
+    margin-right: -5px;
+    margin-top: 10px;
+}
+
+
+i {
+    margin-right: 0px;
+    font-size: 25px;
+}
+
+#header button {
+    background-color: rgb(214, 35, 0);
+    border: none;
+    border-radius: 50px;
+    color: white;
+    padding: 3px 20px;
+    margin-left: 20px;
+}
+
+/* bg style */
+
+#background {
+    background-color: rgba(248,241,231,1);
+}
+
+#bg {
+    padding-top: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#b1 {
+    background-color: rgb(214, 35, 0);
+    border: none;
+    border-radius: 50px;
+    color: white;
+    padding: 12px 90px;
+    margin-left: 20px;
+}
+
+#b2 {
+    background-color: transparent;
+    border: 1px solid rgb(80, 35, 20);
+    border-radius: 50px;
+    color: black;
+    padding: 12px 80px;
+    margin-left: 20px;
+}
+
+#bg-img {
+    width: 600px;
+}
+
+#bg-c1 h1 {
+    width: 500px;
+    font-size: 50px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color: rgb(80, 35, 20);
+    
+}
+
+#bike {
+    font-size: 15px;
+    margin-right: 5px;
+}
+/* cards content */
+
+.cards {
+    width: 35%;
+    height: 400px;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    margin: 20px;
+    margin-left: 200px;
+    margin-right: -200px;
+    background-color: white;
+    margin-bottom:20px ;
+}
+
+.content-data {
+    background-color: white;
+    padding: 10px;
+}
+
+.content-data h3 {
+    color: rgb(80, 35, 20);
+    padding-bottom: 10px;
+}
+
+.cards img {
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card-content,h3,#p1,#p2,button {
+    background-color: white;
+    color: rgb(80, 35, 20);
+    border-radius: 20px;
+}
+
+.cards button {
+    margin-left: 55%;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: rgb(80, 35, 20);
+    border: 2px solid rgb(80, 35, 20);
+}
+
+/* FOoter */
+#footer-container{
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    /* margin-top: 20px; */
+    color: rgb(80, 35, 20);
+}
+#footer-container img {
+    width: 400px;
+    margin-left: 190px;
+    margin-top: -50px;
+}
+#footer-container svg {
+    width: 180px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+#footer-container #item{
+    width: 500px;
+    margin-bottom: 10px;
+}
+
+/* bottom */
+
+.bottom {
+    background-color: rgb(80, 35, 20);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 50px;
+}
+
+
+
+.border {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(248,241,231,1);
+}
+
+.border li {
+    list-style-type: none;
+    color: rgb(80, 35, 20);
+    text-align: center;
+    
+}
+
